@@ -1,0 +1,218 @@
+
+/*general styles*/
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 1200px;
+    width: 970px;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+/*header styles*/
+
+#header {
+    height: 60px;
+    background: rgb(249,249,249);
+}
+
+#name {
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    font-size: 35px;
+    vertical-align: bottom;
+    padding-left: 20px;
+    line-height: 60px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+#description {
+    text-align: right;
+    width: 65%;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: bottom;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+/*"resume" styles*/
+
+#gradient-bg {
+    width: 970px;
+    height: 860px;
+    background: radial-gradient(circle, rgb(111,89,100), black);
+}
+
+/*Photo & About styles*/
+
+#pic-about {
+    height: 320px;
+    width: 970px;
+}
+
+#pic-about img {
+    width: 370px;
+    height: 260px;
+    border: 5px solid rgb(191,191,192);
+    margin: 25px;
+    display: inline-block;
+}
+
+/*about styles*/
+
+#about {
+    height: 270px;
+    width: 510px;
+    margin: 25px 25px 25px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#about-header {
+    height: 40px;
+    width: 500px;
+    display: inline-block;
+    background: linear-gradient(rgb(179,178,182),rgb(135,133,147),rgb(179,178,182));
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+#about-text {
+    width: 490px;
+    height: 200px;
+    padding: 20px 10px 10px 10px;
+    background: linear-gradient(to right, rgb(251,250,251), rgb(218,203,217));
+}
+
+#about p {
+    padding-bottom: 20px;
+}
+
+/*Main-info Styles*/
+
+.column {
+    width: 285px;
+    height: 515px;
+    margin: 0px 25px 25px 0px;
+    display: inline-block;
+    background: linear-gradient(to right, rgb(251,250,251), rgb(218,203,217));
+    vertical-align: top;
+}
+
+#column-1 {
+    margin-left: 25px;
+}
+
+.main-titles {
+    height: 40px;
+    width: 275px;
+    display: inline-block;
+    background: linear-gradient(rgb(179,178,182),rgb(135,133,147),rgb(179,178,182));
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.subtitles {
+    height: 36px;
+    width: 275px;
+    display: inline-block;
+    background: linear-gradient(rgb(179,178,182),rgb(135,133,147),rgb(179,178,182));
+    line-height: 36px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.column-text{
+    padding: 10px;
+    width: 265px; 
+    height: 120px;
+}
+
+.column img {
+    width: 285px; 
+    height: 140px;
+}
+
+/*Tech logo images section styles*/
+
+.logo-row {
+    width: 285px;
+    height: 40px;
+    padding: 10px 0px 0px 10px;  
+}
+
+.logo-row img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.button {
+    width: 285px;
+    height: 50px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.button p {
+    background-color: rgb(64,125,97);
+    border-radius: 6px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 4px 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 80%;
+    box-shadow: 2px 1px 12px black;
+    border: .5px solid rgb(42,90,68);
+}
+
+/*Footer Styles*/
+
+#footer {
+    height: 70px;
+    background: rgb(249,249,249);
+    text-align: center;
+}
+
+#footer p {
+    padding-top: 10px;
+}
+
+#contact {
+    height: 20px;
+    margin-top: 8px;
+}
+
+#contact a {
+    color: inherit;
+}
+
+#contact img {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
